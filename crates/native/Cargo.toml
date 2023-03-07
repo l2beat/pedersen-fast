@@ -1,0 +1,17 @@
+[package]
+name = "pedersen-fast-native"
+version = "0.1.0"
+authors = ["Krzysztof Kaczor <krzkaczor@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pedersen = { path = "../pedersen" }
+pedersen-geometry = { path = "../pedersen-geometry" }
+
+[dependencies.neon]
+version = "0.10"
+default-features = false
+features = ["napi-6"]

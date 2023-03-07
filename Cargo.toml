@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "crates/native",
+    "crates/wasm",
+    "crates/pedersen",
+    "crates/pedersen-geometry"
+]

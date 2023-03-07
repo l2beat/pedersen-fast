@@ -1,0 +1,13 @@
+{
+  "name": "pedersen-fast-native",
+  "version": "0.1.0",
+  "main": "index.node",
+  "author": "Krzysztof Kaczor <krzkaczor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cargo-cp-artifact -nc index.node -- cargo build --release --message-format=json-render-diagnostics"
+  },
+  "devDependencies": {
+    "cargo-cp-artifact": "^0.1.7"
+  }
+}

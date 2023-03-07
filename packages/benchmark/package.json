@@ -1,0 +1,17 @@
+{
+  "name": "pedersen-fast",
+  "version": "1.0.0",
+  "main": "index.node",
+  "author": "Krzysztof Kaczor <krzkaczor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --require esbuild-register src"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.6",
+    "esbuild": "^0.17.10",
+    "esbuild-register": "^3.4.2",
+    "starknet": "^4.22.0",
+    "typescript": "^4.9.5"
+  }
+}
