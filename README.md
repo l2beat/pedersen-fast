@@ -1,9 +1,7 @@
-# pedersen-fast
-
 <p align="center">
   <img src="https://em-content.zobj.net/thumbs/240/apple/325/dashing-away_1f4a8.png" width="120" alt="ts-essentials">
-  <h3 align="center"></h3>
-  <p align="center">Blazing Fast Pedersen hash implementation for Node.JS</p>
+  <h2 align="center">pedersen-fast</h1>
+  <p align="center">Blazing fast Pedersen hash implementation for Node.JS</p>
   <p align="center"><small>
     Exposes <a href="https://github.com/xJonathanLEI/starknet-rs">starknet-crypto</a>'s implementation written in Rust as WASM package.
     </small>
